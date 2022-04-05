@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
+  --bs-blue: #55A5FF;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -41,8 +41,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 26, 188, 156;
-  --bs-secondary-rgb: 44, 62, 80;
+  --bs-primary-rgb: 85, 165, 255;
+  --bs-secondary-rgb: 43, 51, 140;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 4, 98, 159;
   --bs-warning-rgb: 255, 193, 7;
@@ -62,7 +62,7 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
-  --bs-swiss-rgb: #04629F;
+  --bs-swiss-rgb: #55A5FF;
 }
 
 *,
@@ -237,11 +237,11 @@ sup {
 }
 
 a {
-  color: #1abc9c;
+  color: #55A5FF;
   text-decoration: underline;
 }
 a:hover {
-  color: #15967d;
+  color: #55A5FF;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -3476,7 +3476,7 @@ textarea.form-control-lg {
   text-decoration: underline;
 }
 .btn-link:hover {
-  color: #15967d;
+  color: #55A5FF;
 }
 .btn-link:disabled, .btn-link.disabled {
   color: #6c757d;
@@ -3944,7 +3944,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #1abc9c;
+  color: #3b338c;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3954,7 +3954,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #15967d;
+  color: #55A5FF;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4818,7 +4818,7 @@ textarea.form-control-lg {
 }
 .page-link:hover {
   z-index: 2;
-  color: #15967d;
+  color: #55A5FF;
   background-color: #e9ecef;
   border-color: #dee2e6;
 }
@@ -7723,7 +7723,7 @@ textarea.form-control-lg {
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
+  color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }
 
 .text-success {
@@ -11370,7 +11370,7 @@ html {
   color: #fff;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #1abc9c;
+  color: #55A5FF;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
   color: #fff;
@@ -11398,11 +11398,11 @@ html {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #1abc9c;
+    background: #55A5FF;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #1abc9c;
+    background: #55A5FF;
   }
 
   #mainNav.navbar-shrink {
